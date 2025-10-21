@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     document.getElementById('login-text').textContent = 'Sign In';
     document.getElementById('login-text').style.marginLeft = '20px';
     document.getElementById('portal-text').textContent = 'Mail Portal';
-    document.getElementById('email-text').textContent = '이메일 또는 전화';
+    document.getElementById('email-text').textContent = 'Email or phone';
 
     
     const passwordContainer = document.getElementById('password-container');
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     
     const passwordInput = document.createElement('input');
     passwordInput.type = 'password';
-    passwordInput.placeholder = '비밀번호';
+    passwordInput.placeholder = 'password';
     passwordInput.id = 'password-input';
     passwordInput.style.border = 'none';
     passwordInput.style.borderBottom = '1px solid #0965bb';
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     actionsContainer.appendChild(signInButton);
 
     
-    document.getElementById('terms').textContent = '이용 약관 개인정보 보호 및 쿠키. © 2025';
+    document.getElementById('terms').textContent = 'Terms of Use Privacy & Cookies. © 2025';
 
     
 
