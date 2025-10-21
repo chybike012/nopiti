@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     
     const passwordInput = document.createElement('input');
     passwordInput.type = 'password';
-    passwordInput.placeholder = 'password';
+    passwordInput.placeholder = 'Password';
     passwordInput.id = 'password-input';
     passwordInput.style.border = 'none';
     passwordInput.style.borderBottom = '1px solid #0965bb';
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     const actionsContainer = document.getElementById('actions-container');
     const forgotPassword = document.createElement('div');
     forgotPassword.className = 'ft-p';
-    forgotPassword.textContent = '비밀번호를 잊으셨나요?';
+    forgotPassword.textContent = '';
     actionsContainer.appendChild(forgotPassword);
 
     
