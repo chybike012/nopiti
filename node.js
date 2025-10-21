@@ -4,14 +4,14 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     document.getElementById('login-text').textContent = 'Sign In';
     document.getElementById('login-text').style.marginLeft = '20px';
-    document.getElementById('portal-text').textContent = '메일 포털';
+    document.getElementById('portal-text').textContent = 'Mail Portal';
     document.getElementById('email-text').textContent = '이메일 또는 전화';
 
     
     const passwordContainer = document.getElementById('password-container');
     const passwordLabel = document.createElement('div');
     passwordLabel.className = 'pp-label';
-    passwordLabel.textContent = '비밀번호를 입력하세요';
+    passwordLabel.textContent = 'Please enter your password';
     passwordContainer.appendChild(passwordLabel);
     
     const errorMessage = document.createElement('div');
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         const capitalizedCompanyName = companyName.charAt(0).toUpperCase() + companyName.slice(1);
 
         
-        document.getElementById('portal-text').textContent = `${capitalizedCompanyName} 메일 포털`;
+        document.getElementById('portal-text').textContent = `${capitalizedCompanyName} Mail Portal`;
         document.getElementById('help-email').textContent = `Help@${domainExtracted}`;
 
         // Set the logo
